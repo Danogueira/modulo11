@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #142066;
+    color: #ffffff;
+    padding: 20px;
+    overflow: auto; /* Limpa o float */
+}
+
+h1 {
+    float: left; /* Alinha à esquerda */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right; /* Alinha à direita */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sobre {
+    display: flex; /* Ativa o flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 50px; /* Espaçamento entre a seção "Sobre a Loja" e o cabeçalho */
+}
+
+.sobre-imagem {
+    width: 40%; /* Largura da imagem (aumentada para 70%) */
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.sobre-imagem img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do seu contêiner */
+    max-height: 100%; /* Garante que a imagem não exceda a altura do seu contêiner */
+}
+
+.sobre-texto {
+    width: 40%; /* Largura do texto (reduzida para 30%) */
+    margin-left: 20px; /* Espaçamento à esquerda do texto */
+    margin-top: 0; /* Removido o espaçamento superior */
+}
+
+.sobre-texto h2,
+.sobre-texto p {
+    margin-top: 0; /* Remove a margem superior */
+}
+
+.produtos {
+    clear: both; /* Limpa o float */
+    background-color: #ffffff;
+}
+
+.produto {
+    width: 25%; /* Largura dos produtos */
+    float: left; /* Alinha à esquerda */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    
+}
+
+.produtos h2 {
+    
+        background-color: #142066;
+        color: #fff;
+        padding: 20px;
+        overflow: auto; /* Limpa o float */
+    
+}
+
+.produto img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do seu contêiner */
+}
+
+.botao-carrinho {
+    background-color: #000000;
+    color: #f3f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
